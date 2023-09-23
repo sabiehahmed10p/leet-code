@@ -16,4 +16,9 @@ class Solution {
       return shortestDistance;
     }
   }
+
+
+  // In case of circular array we can use 
+//  right = (right + 1) % n  (Increment)
+//  left = (left - 1 + n) % n (Decrement)
   
